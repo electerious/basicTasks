@@ -30,7 +30,7 @@ let gulp  = require('gulp'),
 
 The scripts-task will bundle a JS-file as a standalone UMD module, transform it using Babel and uglify the output. 
 
-```
+```js
 const scripts = tasks.scripts({
 	from : './src/scripts/main.js',
 	to   : './dist'
@@ -43,7 +43,7 @@ gulp.task('scripts', scripts)
 
 The styles-task accepts SCSS- and SASS-files. It will autoprefix and minify them.
 
-```
+```js
 const styles = tasks.styles({
 	from : './src/styles/main.scss',
 	to   : './dist'
