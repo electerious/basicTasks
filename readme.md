@@ -11,7 +11,7 @@ A collection of gulp-tasks used in personal projects.
 
 ## Setup
 
-Install basicModal using [npm](https://npmjs.com) …
+Install basicTasks using [npm](https://npmjs.com) …
 
 ```sh
 npm install @electerious/basictasks
