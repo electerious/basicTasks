@@ -51,3 +51,15 @@ const styles = tasks.styles({
 
 gulp.task('styles', styles)
 ```
+
+Specify a custom filename using the `name` property.
+
+```js
+const styles = tasks.styles({
+	from : './src/styles/main.scss',
+	name : (path) => path.basename += '.min',
+	to   : './dist'
+})
+
+gulp.task('styles', styles)
+```
