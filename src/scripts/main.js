@@ -1,7 +1,7 @@
 'use strict'
 
-let scripts    = require('./scripts'),
-    styles     = require('./styles')
+let scripts = require('./scripts'),
+    styles  = require('./styles')
 
 module.exports = function(gulp, name) {
 
