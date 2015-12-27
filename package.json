@@ -4,7 +4,7 @@
   "authors": [
     "Tobias Reich <tobias@electerious.com>"
   ],
-  "description": "A collection of gulp-tasks used in personal projects.",
+  "description": "A collection of gulp-tasks used in personal projects",
   "main": "index.js",
   "keywords": [
     "gulp",
