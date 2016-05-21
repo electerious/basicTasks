@@ -1,10 +1,10 @@
 'use strict'
 
-let catchError   = require('./catchError')()
-let sass         = require('gulp-sass')
-let rename       = require('gulp-rename')
-let autoprefixer = require('gulp-autoprefixer')
-let csso         = require('gulp-csso')
+const catchError   = require('./catchError')()
+const sass         = require('gulp-sass')
+const rename       = require('gulp-rename')
+const autoprefixer = require('gulp-autoprefixer')
+const csso         = require('gulp-csso')
 
 module.exports = function(gulp, name, opts) {
 
