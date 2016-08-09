@@ -35,6 +35,6 @@
     "postpublish": "greenkeeper-postpublish"
   },
   "devDependencies": {
-    "greenkeeper-postpublish": "^1.0.0"
+    "greenkeeper-postpublish": "^1.0.1"
   }
 }
