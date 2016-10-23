@@ -1,6 +1,6 @@
 # basicTasks
 
-A collection of gulp-tasks used in personal projects.
+A collection of gulp tasks used in personal projects.
 
 ## Contents
 
@@ -17,7 +17,7 @@ Install basicTasks using [npm](https://npmjs.com) …
 npm install @electerious/basictasks
 ```
 
-… and require it in your gulp-file.
+… and require it in your gulpfile.
 
 ```js
 let gulp  = require('gulp'),
@@ -28,7 +28,7 @@ let gulp  = require('gulp'),
 
 ### Scripts-Task
 
-The scripts-task will bundle a JS-file as a standalone UMD module, transform it using Babel and uglify the output. 
+The scripts-task will bundle a JS file as a standalone UMD module, transform it using Babel and uglify the output. 
 
 ```js
 const scripts = tasks.scripts({
@@ -41,7 +41,7 @@ gulp.task('scripts', scripts)
 
 ### Styles-Task
 
-The styles-task accepts SCSS- and SASS-files. It will autoprefix and minify them.
+The styles-task accepts SCSS and SASS files. It will autoprefix and minify them.
 
 ```js
 const styles = tasks.styles({
