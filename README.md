@@ -5,7 +5,7 @@ A collection of gulp tasks used in personal projects.
 ## Contents
 
 - [Setup](#setup)
-- [How to use](#how-to-use)
+- [Usage](#usage)
 	- [Scripts-Task](#scripts-task)
 	- [Styles-Task](#styles-task)
 
@@ -22,13 +22,13 @@ npm install @electerious/basictasks
 ```js
 let gulp  = require('gulp'),
     tasks = require('@electerious/basictasks')(gulp, 'yourModuleName')
-``` 
+```
 
-## How to use
+## Usage
 
 ### Scripts-Task
 
-The scripts-task will bundle a JS file as a standalone UMD module, transform it using Babel and uglify the output. 
+The scripts-task will bundle a JS file as a standalone UMD module, transform it using Babel and uglify the output.
 
 ```js
 const scripts = tasks.scripts({
