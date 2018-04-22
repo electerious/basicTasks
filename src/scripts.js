@@ -17,7 +17,7 @@ module.exports = function(gulp, name, opts) {
 		})
 
 		const transformer = babelify.configure({
-			presets: [ 'es2015' ]
+			presets: [ 'env' ]
 		})
 
 		bify.transform(transformer, { global: true })
