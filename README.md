@@ -20,8 +20,8 @@ npm install @electerious/basictasks
 … and require it in your gulpfile.
 
 ```js
-let gulp  = require('gulp'),
-    tasks = require('@electerious/basictasks')(gulp, 'yourModuleName')
+const gulp = require('gulp')
+const tasks = require('@electerious/basictasks')(gulp, 'yourModuleName')
 ```
 
 ## Usage
@@ -32,8 +32,8 @@ The scripts-task will bundle a JS file as a standalone UMD module, transform it 
 
 ```js
 const scripts = tasks.scripts({
-	from : './src/scripts/main.js',
-	to   : './dist'
+	from: './src/scripts/main.js',
+	to: './dist'
 })
 
 gulp.task('scripts', scripts)
@@ -45,8 +45,8 @@ The styles-task accepts SCSS and SASS files. It will autoprefix and minify them.
 
 ```js
 const styles = tasks.styles({
-	from : './src/styles/main.scss',
-	to   : './dist'
+	from: './src/styles/main.scss',
+	to: './dist'
 })
 
 gulp.task('styles', styles)
@@ -56,9 +56,9 @@ Specify a custom filename using the `name` property.
 
 ```js
 const styles = tasks.styles({
-	from : './src/styles/main.scss',
-	name : (path) => path.basename += '.min',
-	to   : './dist'
+	from: './src/styles/main.scss',
+	name: (path) => path.basename += '.min',
+	to: './dist'
 })
 
 gulp.task('styles', styles)

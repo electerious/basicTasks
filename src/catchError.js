@@ -2,11 +2,11 @@
 
 module.exports = function() {
 
-	return (function(err) {
+	return function(err) {
 
 		console.log(err.toString())
 		this.emit('end')
 
-	})
+	}
 
 }
