@@ -21,13 +21,13 @@ module.exports = function(gulp, name, opts) {
 		})
 
 		bify.transform(transformer, { global: true })
-		    .bundle()
-		    .on('error', catchError)
-		    .pipe(source(name + '.min.js'))
-		    .pipe(buffer())
-		    .pipe(uglify())
-		    .on('error', catchError)
-		    .pipe(gulp.dest(opts.to))
+			.bundle()
+			.on('error', catchError)
+			.pipe(source(name + '.min.js'))
+			.pipe(buffer())
+			.pipe(uglify())
+			.on('error', catchError)
+			.pipe(gulp.dest(opts.to))
 
 	}
 

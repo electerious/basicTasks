@@ -16,12 +16,12 @@ module.exports = function(gulp, name, opts) {
 	return function() {
 
 		gulp.src(opts.from)
-		    .pipe(sass())
-		    .on('error', catchError)
-		    .pipe(rename(changePath))
-		    .pipe(autoprefixer('last 2 version', '> 1%'))
-		    .pipe(csso())
-		    .pipe(gulp.dest(opts.to))
+			.pipe(sass())
+			.on('error', catchError)
+			.pipe(rename(changePath))
+			.pipe(autoprefixer('last 2 version', '> 1%'))
+			.pipe(csso())
+			.pipe(gulp.dest(opts.to))
 
 	}
 
