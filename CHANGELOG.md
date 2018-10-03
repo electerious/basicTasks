@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [4.0.0] - 2018-04-22
 
-### New
+### Added
 
 - Updated dependencies
 
@@ -16,7 +16,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [3.0.0] - 2017-08-08
 
-### New
+### Added
 
 - Added a changelog
 
