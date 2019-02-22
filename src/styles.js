@@ -15,7 +15,7 @@ module.exports = function(gulp, name, opts) {
 
 	return function() {
 
-		gulp.src(opts.from)
+		return gulp.src(opts.from)
 			.pipe(sass())
 			.on('error', catchError)
 			.pipe(rename(changePath))

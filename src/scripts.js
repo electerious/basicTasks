@@ -20,7 +20,7 @@ module.exports = function(gulp, name, opts) {
 			presets: [ 'env' ]
 		})
 
-		bify.transform(transformer, { global: true })
+		return bify.transform(transformer, { global: true })
 			.bundle()
 			.on('error', catchError)
 			.pipe(source(name + '.min.js'))
