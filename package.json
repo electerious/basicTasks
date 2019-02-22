@@ -20,22 +20,16 @@
     "src"
   ],
   "dependencies": {
-    "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babelify": "^8.0.0",
-    "browserify": "^16.2.0",
-    "gulp-autoprefixer": "5.0.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babelify": "^10.0.0",
+    "browserify": "^16.2.3",
+    "gulp-autoprefixer": "6.0.0",
     "gulp-csso": "^3.0.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^4.0.1",
-    "gulp-uglify": "^3.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^2.0.0"
-  },
-  "scripts": {
-    "postpublish": "greenkeeper-postpublish"
-  },
-  "devDependencies": {
-    "greenkeeper-postpublish": "^1.3.0"
   }
 }
