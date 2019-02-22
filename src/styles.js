@@ -20,7 +20,7 @@ module.exports = function(gulp, name, opts) {
 			.on('error', catchError)
 			.pipe(rename(changePath))
 			.pipe(autoprefixer('last 2 version', '> 1%'))
-			.pipe(csso())
+			.pipe(csso({ restructure: false }))
 			.pipe(gulp.dest(opts.to))
 
 	}
