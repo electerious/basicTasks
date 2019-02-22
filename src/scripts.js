@@ -1,13 +1,13 @@
 'use strict'
 
-const catchError = require('./catchError')()
-const browserify = require('browserify')
-const babelify = require('babelify')
-const source = require('vinyl-source-stream')
-const buffer = require('vinyl-buffer')
-const uglify = require('gulp-uglify')
-
 module.exports = function(gulp, name, opts) {
+
+	const catchError = require('./catchError')()
+	const browserify = require('browserify')
+	const babelify = require('babelify')
+	const source = require('vinyl-source-stream')
+	const buffer = require('vinyl-buffer')
+	const uglify = require('gulp-uglify')
 
 	return function() {
 
